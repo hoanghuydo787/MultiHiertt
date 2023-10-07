@@ -30,7 +30,7 @@ data:
   class_path: lightning_modules.datasets.retriever_reader.RetrieverPredictionDataModule
   init_args:
     transformer_model_name: *transformer
-    batch_size: 512
+    batch_size: 256
     num_workers: 8
     test_file_path: dataset/test.json # {train, dev, test}, also change line 7
     test_max_instances: -1
