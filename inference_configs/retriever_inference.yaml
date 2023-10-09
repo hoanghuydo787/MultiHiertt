@@ -1,6 +1,6 @@
 seed_everything: 333
 trainer:
-  # gpus: [0]
+  gpus: [0]
   callbacks:
     - class_path: lightning_modules.callbacks.retriever_save_prediction_callback.SavePredictionCallback
       init_args:
